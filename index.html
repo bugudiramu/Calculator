@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Calculator</title>
+</head>
+
+<body>
+  .<div class="container">
+
+    <!-- <nav class="navbar navbar-expand-lg bg-transparent navbar-dark fixed-top">
+      <a href="#" class="navbar-brand">Logo</a>
+
+      <button style="border: 2px solid transparent;" id="toggler" class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">SignUp</a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+    <!-- <br><br>
+    <br><br> -->
+    <div class="calculator">
+      <h1>Calculator</h1>
+      <div class="inputform">
+        <form name="form">
+          <input id="textView" class="form-control bg-secondary form-control-lg" style="width:350px;margin-bottom: 7px;border:2px solid grey;color:white;"
+            type="text">
+        </form>
+      </div>
+
+      <table id="table">
+
+        <tr>
+          <td><input id="btn" type="button" onclick="clean()" value="C"></td>
+          <td><input id="btn" type="button" onclick="back()" value="<"></td>
+          <td><input id="btn" type="button" onclick="insert('/')" value="/"></td>
+          <td><input id="btn" type="button" onclick="insert('*')" value="x"></td>
+        </tr>
+
+        <tr>
+          <td><input id="btn" type="button" onclick="insert('7')" value="7"></td>
+          <td><input id="btn" type="button" onclick="insert('8')" value="8"></td>
+          <td><input id="btn" type="button" onclick="insert('9')" value="9"></td>
+          <td><input id="btn" type="button" onclick="insert('-')" value="-"></td>
+        </tr>
+
+        <tr>
+          <td><input id="btn" type="button" onclick="insert('4')" value="4"></td>
+          <td><input id="btn" type="button" onclick="insert('5')" value="5"></td>
+          <td><input id="btn" type="button" onclick="insert('6')" value="6"></td>
+          <td><input id="btn" type="button" onclick="insert('+')" value="+"></td>
+        </tr>
+
+        <tr>
+          <td><input id="btn" type="button" onclick="insert('1')" value="1"></td>
+          <td><input id="btn" type="button" onclick="insert('2')" value="2"></td>
+          <td><input id="btn" type="button" onclick="insert('3')" value="3"></td>
+          <td rowspan="2"><input id="btn" style="height:170px;" type="button" onclick="equal()" value="="></td>
+        </tr>
+
+        <tr>
+          <td colspan="2"><input id="btn" style="width:170px;" type="button" onclick="insert('0')" value="0"></td>
+          <td><input id="btn" type="button" onclick="insert('.')" value="."></td>
+        </tr>
+
+      </table>
+
+    </div>
+
+  </div>
+
+<!--   <div id="footer">
+    <p>Desingned & Coded by <strong>Bugudi-Ramu</strong></p>
+    <p id="copyright">Copyright &copy;2018 </p>
+  </div> -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
